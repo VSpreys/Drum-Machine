@@ -1,0 +1,46 @@
+div {
+    display: block;
+}
+
+#drum-machine {
+  text-align: center;
+}
+.inner-container {
+    outline: 5px solid orange;
+    position: relative;
+    width: 660px;
+    text-align: center;
+    background-color: #b3b3b3;
+}
+
+.inner-container .pad-bank {
+    width: 332px;
+    height: 272px;
+    display: inline-block;
+    margin: 20px;
+    /* float: left; */
+}
+
+.inner-container .pad-bank .drum-pad {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 80px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding-top: 35px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: grey;
+    margin-top: 10px;
+    box-shadow: black 3px 3px 5px;
+}
+
+.inner-container .logo {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.inner-container .logo img {
+  width: 70px;
+}
