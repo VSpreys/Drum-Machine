@@ -1,5 +1,6 @@
 import './DrumMachine.css';
 import PodBank from './PadBank';
+import ControlsContainer from './ControlsContainer';
 
 function DrumMachine() {
   return (
@@ -8,6 +9,7 @@ function DrumMachine() {
       <div class="logo">
         <img src="/small_logo-transformed.png" alt="logo"></img>
       </div>
+      <ControlsContainer />
     </div>
   );
 }
