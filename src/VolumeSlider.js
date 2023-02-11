@@ -7,8 +7,16 @@ function VolumeSlider({ state, setState, display, setDisplay }) {
         }, 1500);
   };
   return (
-    <div class="volume-slider">
-          <input max="1" min="0" step="0.01" type="range" value={ state.volume } onChange={handleVolume} disabled={!state.power}></input>
+    <div className="volume-slider">
+      <input
+        max="1"
+        min="0"
+        step="0.01"
+        type="range"
+        value={state.volume}
+        onChange={handleVolume}
+        disabled={!state.power}
+      ></input>
     </div>
   );
 }

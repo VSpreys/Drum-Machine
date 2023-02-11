@@ -1,48 +1,48 @@
 const Pads = [
   {
     button: "Q",
-    sound1: "link",
-    sound2: "link2",
+    sound: "https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3",
+    display: "Heater 1",
   },
   {
     button: "W",
-    sound1: "link",
-    sound2: "link2",
+    sound: "https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3",
+    display: "Heater 2",
   },
   {
     button: "E",
-    sound1: "link",
-    sound2: "link2",
+    sound: "https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3",
+    display: "Heater 3",
   },
   {
     button: "A",
-    sound1: "link",
-    sound2: "link2",
+    sound: "https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3",
+    display: "Heater 4",
   },
   {
     button: "S",
-    sound1: "link",
-    sound2: "link2",
+    sound: "https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3",
+    display: "Clap",
   },
   {
     button: "D",
-    sound1: "link",
-    sound2: "link2",
+    sound: "https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3",
+    display: "Open HH",
   },
   {
     button: "Z",
-    sound1: "link",
-    sound2: "link2",
+    sound: "https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3",
+    display: "Kick n' Hat",
   },
   {
     button: "X",
-    sound1: "link",
-    sound2: "link2",
+    sound: "https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3",
+    display: "Kick",
   },
   {
     button: "C",
-    sound1: "link",
-    sound2: "link2",
+    sound: "https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3",
+    display: "Closed HH",
   },
 ];
 

@@ -4,12 +4,16 @@ function SoundControl({ state, setState, setDisplay }) {
       setDisplay(state.soundType === 1 ? "Smooth Piano Kit" : "Heater Kit");
     };
   return (
-    <div class="sound-mode">
-      <div class="control">
+    <div className="sound-mode">
+      <div className="control">
         <p>Bank</p>
-        <div class="select" onClick={handleSoundType} disabled={!state.power}>
+        <div
+          className="select"
+          onClick={handleSoundType}
+          disabled={!state.power}
+        >
           <div
-            class="inner"
+            className="inner"
             style={{ float: state.soundType === 1 ? "left" : "right" }}
           ></div>
         </div>

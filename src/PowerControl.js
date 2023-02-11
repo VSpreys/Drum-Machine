@@ -4,15 +4,15 @@ function PowerControl({ state, setState, setDisplay }) {
     if (state.power) setDisplay("\u00A0");
   };
   return (
-      <div class="control">
-        <p>Power</p>
-        <div class="select" onClick={handlePower}>
-          <div
-            class="inner"
-            style={{ float: state.power ? "right" : "left" }}
-          ></div>
-        </div>
+    <div className="control">
+      <p>Power</p>
+      <div className="select" onClick={handlePower}>
+        <div
+          className="inner"
+          style={{ float: state.power ? "right" : "left" }}
+        ></div>
       </div>
+    </div>
   );
 }
 

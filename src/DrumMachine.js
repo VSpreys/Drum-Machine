@@ -11,12 +11,17 @@ function DrumMachine() {
   });
   const [display, setDisplay] = useState("\u00A0");
   return (
-    <div class="inner-container" id="drum-machine">
-      <PodBank state={state} setState={setState} setDisplay={setDisplay} />
-      <div class="logo">
+    <div className="inner-container" id="drum-machine">
+      <PodBank state={state} setDisplay={setDisplay} />
+      <div className="logo">
         <img src="/small_logo-transformed.png" alt="logo"></img>
       </div>
-      <ControlsContainer state={state} setState={setState} display={display} setDisplay={setDisplay} />
+      <ControlsContainer
+        state={state}
+        setState={setState}
+        display={display}
+        setDisplay={setDisplay}
+      />
     </div>
   );
 }
